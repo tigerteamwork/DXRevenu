@@ -38,12 +38,12 @@
 
         <types>
         <members>*</members>
-        <name>CustomObjects</name>
+        <name>CustomObject</name>
         </types>
         
         <types>
         <members>*</members>
-        <name>CustomFields</name>
+        <name>CustomField</name>
         </types>
 
         <types>

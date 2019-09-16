@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bux_Out_List_View</fullName>
+    <columns>LAST_UPDATE</columns>
+    <columns>NAME</columns>
+    <columns>Date__c</columns>
+    <columns>LifeOrDeath__c</columns>
+    <columns>YOLO__c</columns>
+    <columns>Memo__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Bux Out List View</label>
+</ListView>

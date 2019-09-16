@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_Numbers</fullName>
+    <active>true</active>
+    <errorConditionFormula>( RevuLifeOrDeathBucketAmount__c &lt; 0)  || ( RevuYouOnlyLiveOnceBucketAmount__c &lt; 0)</errorConditionFormula>
+    <errorDisplayField>RevuLifeOrDeathBucketAmount__c</errorDisplayField>
+    <errorMessage>Please enter viable amounts.</errorMessage>
+</ValidationRule>

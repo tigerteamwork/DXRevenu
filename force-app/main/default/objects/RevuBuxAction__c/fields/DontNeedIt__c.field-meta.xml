@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DontNeedIt__c</fullName>
+    <defaultValue>&#39;Miscellaneous&#39;</defaultValue>
+    <externalId>false</externalId>
+    <label>Dont Need It</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Payday__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>RevuCategories</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>unchecked</controllingFieldValue>
+            <valueName>Dude Its Life Or Death</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>unchecked</controllingFieldValue>
+            <valueName>Dude YouOnlyLiveOnce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>DudeWorkingHardForMyFuture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>DudeItsRollingIn</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

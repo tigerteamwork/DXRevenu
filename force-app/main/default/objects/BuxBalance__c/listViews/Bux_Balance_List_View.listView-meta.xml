@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bux_Balance_List_View</fullName>
+    <columns>LAST_UPDATE</columns>
+    <columns>NAME</columns>
+    <columns>BalanceTotal__c</columns>
+    <columns>Balance_Life_Or_Death__c</columns>
+    <columns>Balance_YOLO__c</columns>
+    <columns>Balance_Working_Hard__c</columns>
+    <columns>Balance_Being_Special__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Bux Balance List View</label>
+</ListView>
